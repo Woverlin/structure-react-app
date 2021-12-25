@@ -11,12 +11,12 @@
         "module": "esnext",
         "moduleResolution": "node",
         "noFallthroughCasesInSwitch": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
+        // "noUnusedLocals": true,
+        // "noUnusedParameters": true,
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "strict": true,
-        "target": "es2018",
+        "target": "es5",
         "baseUrl": "./src",
         "paths": {
             "src": ["./src"]
