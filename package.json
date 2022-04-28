@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.dev.js --port 3000"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.dev.js --port 4000"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +34,7 @@
     "@types/react-dom": "^17.0.11",
     "antd": "^4.17.4",
     "autoprefixer": "^10.4.0",
+    "axios": "^0.27.2",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^10.2.0",
     "cross-env": "^7.0.3",
@@ -47,6 +48,7 @@
     "postcss-loader": "^6.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-query": "^3.38.0",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "sass-loader": "^12.4.0",
