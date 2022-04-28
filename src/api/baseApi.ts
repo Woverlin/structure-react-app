@@ -1,6 +1,5 @@
 import axios, { AxiosRequestConfig, Method } from "axios";
 import { includes, isEmpty } from "lodash";
-import { HTTP_STATUS_CODES } from "scripts/helpers";
 
 const URL = "http://localhost:3000";
 
