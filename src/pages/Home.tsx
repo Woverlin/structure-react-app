@@ -1,12 +1,10 @@
 import React from "react";
-// import image from "../assets/images/abc.png";
-import { Button } from 'antd';
+import { useQuery } from "react-query";
+import { getAllPost } from "api/categories";
 export default () => {
+  const { data, isFetching: loading } = useQuery("getAllPost", getAllPost);
   return (
-    <div>
-      Haloo
-      <Button type="default">adfasdf</Button>
-      <img src={"images/abc.png"} />
+    <div className="">
     </div>
   );
 };

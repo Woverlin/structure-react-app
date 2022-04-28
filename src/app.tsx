@@ -34,7 +34,7 @@ const App = () => {
   //   const { Public, Private } = RouteCpn;
 
   function PrivateRoute({ children }: any) {
-    const auth = false;
+    const auth = true;
     return auth ? children : <Navigate to="/login" />;
   }
 
