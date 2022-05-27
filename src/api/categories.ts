@@ -5,4 +5,4 @@ export const getAllPost = () => {
 };
 
 
-//change something here
+// change smt here
