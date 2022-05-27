@@ -3,7 +3,7 @@ const Layout = ({ children }: any) => {
   const isLoggedIn = true;
   return isLoggedIn ? (
     <div>
-      <div className="text-3xl font-bold underline "> Header</div>
+      <div className="text-3xl font-bold underline "> </div>
       {children && children}
     </div>
   ) : (

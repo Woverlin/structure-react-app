@@ -26,6 +26,7 @@ const baseApi = async (
 
         try {
             const { data }: any = await axios(options);
+            console.log("data", data);
             return data;
         } catch (error) {
             return Promise.reject({
